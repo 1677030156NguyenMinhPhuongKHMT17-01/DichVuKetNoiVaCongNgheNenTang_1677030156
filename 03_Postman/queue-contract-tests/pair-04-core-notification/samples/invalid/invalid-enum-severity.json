@@ -1,0 +1,13 @@
+{
+    "event_id": "123e4567-e89b-12d3-a456-426614174005",
+    "event_name": "alert.created",
+    "correlationId": "req-0196fb3d-4ad7-7d1e-9f49-5d5148d2babc",
+    "source": "core-business",
+    "alert_id": "ALT-2026-005",
+    "severity": "extreme",
+    "message": "Mô phỏng lỗi sai giá trị enum nghiệp vụ",
+    "target_channels": [
+      "email"
+    ],
+    "timestamp": "2026-08-13T08:55:00+07:00"
+  }

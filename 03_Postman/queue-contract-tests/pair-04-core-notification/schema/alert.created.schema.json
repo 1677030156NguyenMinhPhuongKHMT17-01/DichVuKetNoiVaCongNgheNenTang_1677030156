@@ -1,0 +1,32 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "event_id", 
+      "event_name", 
+      "alert_id", 
+      "severity", 
+      "message", 
+      "timestamp", 
+      "correlationId", 
+      "source"
+    ],
+    "properties": {
+      "event_id": { "type": "string", "format": "uuid" },
+      "event_name": { "const": "alert.created" },
+      "correlationId": { "type": "string", "format": "uuid" },
+      "source": { "const": "core-business" },
+      "alert_id": { "type": "string", "minLength": 3 },
+      "severity": { "enum": ["low", "medium", "high", "critical"] },
+      "message": { "type": "string", "minLength": 5 },
+      "target_channels": {
+        "type": "array",
+        "items": { 
+          "type": "string", 
+          "enum": ["telegram", "email", "discord", "sms"] 
+        }
+      },
+      "timestamp": { "type": "string", "format": "date-time" }
+    }
+  }

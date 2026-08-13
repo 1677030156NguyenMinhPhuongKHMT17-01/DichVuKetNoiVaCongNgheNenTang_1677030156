@@ -1,0 +1,12 @@
+{
+    "event_id": "123e4567-e89b-12d3-a456-426614174004",
+    "event_name": "alert.created",
+    "source": "core-business",
+    "alert_id": "ALT-2026-004",
+    "severity": "medium",
+    "message": "Mô phỏng lỗi mất dấu truy vết",
+    "target_channels": [
+      "telegram"
+    ],
+    "timestamp": "2026-08-13T08:50:00+07:00"
+  }

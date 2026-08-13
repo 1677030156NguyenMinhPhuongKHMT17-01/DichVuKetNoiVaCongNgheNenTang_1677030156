@@ -1,0 +1,19 @@
+==================================================
+BẮT ĐẦU KIỂM THỬ: VALID SAMPLES (EXPECTED PASS)
+==================================================
+[PASS] alert-created-valid-boundary.json
+[PASS] alert-created-valid-standard.json
+
+==================================================
+BẮT ĐẦU KIỂM THỬ: INVALID SAMPLES (EXPECTED FAIL)
+==================================================
+[PASS expected-invalid] invalid-enum-severity.json
+[PASS expected-invalid] invalid-format-timestamp.json
+[PASS expected-invalid] invalid-missing-correlationId.json
+[PASS expected-invalid] invalid-missing-eventId.json
+[PASS expected-invalid] invalid-type-channels.json
+[PASS expected-invalid] invalid-wrong-source.json
+
+==================================================
+TỔNG KẾT: SỐ CASE THẤT BẠI = 0
+==================================================

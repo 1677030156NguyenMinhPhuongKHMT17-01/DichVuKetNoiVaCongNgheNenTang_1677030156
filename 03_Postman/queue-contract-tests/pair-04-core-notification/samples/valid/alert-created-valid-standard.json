@@ -1,0 +1,14 @@
+{
+    "event_id": "123e4567-e89b-12d3-a456-426614174000",
+    "event_name": "alert.created",
+    "correlationId": "0196fb3d-4ad7-7d1e-9f49-5d5148d2babc",
+    "source": "core-business",
+    "alert_id": "ALT-2026-001",
+    "severity": "high",
+    "message": "Phát hiện truy cập trái phép tại cổng chính",
+    "target_channels": [
+      "telegram",
+      "email"
+    ],
+    "timestamp": "2026-08-13T08:35:00+07:00"
+  }

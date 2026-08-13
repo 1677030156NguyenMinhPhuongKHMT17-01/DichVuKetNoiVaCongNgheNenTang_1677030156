@@ -1,0 +1,12 @@
+{
+    "event_name": "alert.created",
+    "correlationId": "req-0196fb3d-4ad7-7d1e-9f49-5d5148d2babc",
+    "source": "core-business",
+    "alert_id": "ALT-2026-003",
+    "severity": "high",
+    "message": "Mô phỏng lỗi thiếu mã chống trùng lặp sự kiện",
+    "target_channels": [
+      "telegram"
+    ],
+    "timestamp": "2026-08-13T08:45:00+07:00"
+  }
